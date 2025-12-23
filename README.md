@@ -16,21 +16,20 @@
 - Графический интерфейс с использованием Tkinter  
 
 ## Структура проекта
-finance_planner/
-│
-├── main.py # главный файл для запуска программы
-├── models.py # классы FinancialOperation и Category
-├── storage.py # сохранение/загрузка CSV
-├── analysis.py # функции анализа данных
-├── visualization.py # построение графиков
-├── gui.py # графический интерфейс Tkinter
-├── utils.py # вспомогательные функции (валидация, очистка)
-├── tests/
-│ └── test_core.py # unit-тесты
-├── data/
-│ └── operations.csv # файл с данными
-├── gitignore.txt
-├── README.md
+finance_planner
+- main.py # главный файл для запуска программы
+- models.py # классы FinancialOperation и Category
+- storage.py # сохранение/загрузка CSV
+- analysis.py # функции анализа данных
+- visualization.py # построение графиков
+- gui.py # графический интерфейс Tkinter
+- utils.py # вспомогательные функции (валидация, очистка)
+- tests
+  - test_core.py # unit-тесты
+- data
+  - operations.csv # файл с данными
+- gitignore.txt
+- README.md
 
 ## Установка
 1. Клонируйте репозиторий:
@@ -62,3 +61,6 @@ python gui.py
 ```bash
 python -m unittest tests/test_core.py
 ```
+
+## Визуальный интерфейс
+![УДАЛИ](https://github.com/user-attachments/assets/86def7d2-e4e1-4e0d-b832-22003649d77c)
